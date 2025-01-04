@@ -1,0 +1,59 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hello", "Hey", "Howdy", "Hi there", "Greetings", "What's up?", "Good day"],
+          "responses": ["Hello!", "Hi there!", "Good to see you!", "Greetings!", "Hey! How can I help you?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "See you", "Talk to you later"],
+          "responses": ["Goodbye!", "See you soon!", "Take care!", "Have a great day!"]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Appreciate it"],
+          "responses": ["You're welcome!", "Happy to help!", "No problem!", "Anytime!"]
+      },
+      {
+          "tag": "no_answer",
+          "patterns": ["", "I don't know", "Can you answer that?", "What do you think?"],
+          "responses": ["I'm here to help with what I know.", "Sorry, I'm not sure how to answer that.", "Let's try another question!"]
+      },
+      {
+          "tag": "help",
+          "patterns": ["Can you help me?", "I need some help", "Can you assist me?", "Help me", "I need assistance"],
+          "responses": ["Of course! What do you need help with?", "I'm here to assist you. Please tell me more.", "Sure, how can I help you?"]
+      },
+      {
+          "tag": "hours",
+          "patterns": ["What are your hours?", "When are you open?", "When do you operate?", "What time do you open?"],
+          "responses": ["I'm available 24/7 to chat!", "I'm here whenever you need me."]
+      },
+      {
+          "tag": "name",
+          "patterns": ["What is your name?", "Who are you?", "Can you tell me your name?", "What's your name?"],
+          "responses": ["I'm your friendly chatbot!", "You can call me Chatbot!", "I'm here to assist you!"]
+      },
+      {
+          "tag": "weather",
+          "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather?", "Is it sunny or rainy?"],
+          "responses": ["I'm unable to check live weather, but you can check a weather app!", "I'm not sure, but you can try a weather website."]
+      },
+      {
+          "tag": "joke",
+          "patterns": ["Tell me a joke", "Do you know any jokes?", "Make me laugh", "I need a laugh"],
+          "responses": ["Why did the robot cross the road? Because it was programmed by a chicken!", "Why was the computer cold? It left its Windows open!", "I tried to catch some fog, but I mist."]
+      },
+      {
+          "tag": "bot_info",
+          "patterns": ["What can you do?", "What are your capabilities?", "How can you help me?", "What is your purpose?"],
+          "responses": ["I'm here to answer questions and provide information!", "I can help you find information, answer questions, or just chat!"]
+      },
+      {
+          "tag": "user_info",
+          "patterns": ["Tell me about myself", "Do you know anything about me?", "Can you remember things?"],
+          "responses": ["I can't remember personal details, but I can assist you with questions!", "I'm designed to help without storing any personal information."]
+      }
+  ]
+}
